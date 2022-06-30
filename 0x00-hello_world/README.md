@@ -2,3 +2,4 @@
 (1) Compiling a C file that doesn't link
 (2) Generating the assembly code for a C code and saving it in an output file
 (3) Compiling a C file and creeating an executable named cisfun
+(4) A C program that prints using the function puts followed by a new line
