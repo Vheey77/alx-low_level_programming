@@ -5,3 +5,4 @@
 (4) A C program that prints using the function puts followed by a new line
 (5) A C program that prints using the function printf followed by a new line
 (6) A C program that prints the size of various types
+(7) Generating the assembly code (Intel Syntax) of a C code
