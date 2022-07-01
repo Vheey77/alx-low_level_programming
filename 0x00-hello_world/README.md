@@ -4,3 +4,4 @@
 (3) Compiling a C file and creeating an executable named cisfun
 (4) A C program that prints using the function puts followed by a new line
 (5) A C program that prints using the function printf followed by a new line
+(6) A C program that prints the size of various types
