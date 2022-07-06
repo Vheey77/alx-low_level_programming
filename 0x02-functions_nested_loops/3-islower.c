@@ -2,20 +2,23 @@
 /**
  * _islower - checks for lowercase
  * @c: single letter input
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
-
-int _islower(int c);
+int _islower(int c)
 {
 	int f;
 
 	for (f = 'a'; f <= 'z'; f++)
 	{
-	if (c == f)
+	/* Use int c*/
+	if (f == c)
+	{
 	return (1);
 	}
-	else
+	else if (f != c)
 	{
 	return (0);
 	}
+	}
+	return (0);
 }
