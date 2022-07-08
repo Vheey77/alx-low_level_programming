@@ -7,3 +7,4 @@
 (6) A function that draws a straight line in the terminal
 (7) A function that draws a diagonal line on the terminal
 (8) A function that prints a square
+(9) A program that prints the numbers 0 to 100 but wit fizz buzz inbetween
