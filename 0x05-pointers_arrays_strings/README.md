@@ -4,3 +4,6 @@
 (3) 
 (4)
 (5) A function that reverses a string
+(6)
+(7)
+(8) A function that prints n elements of an array of integers, followed by a new line
