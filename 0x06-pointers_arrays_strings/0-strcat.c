@@ -7,19 +7,19 @@
  * Return: Resulting string dest
  */
 char *_strcat(char *dest, char *src)
-{	
-	int dlen = 0, i;
+{
+	int len = 0, i;
 
-	while dest[dlen]
+	while (dest[len])
 	{
-		dlen++;
-	}
-	for (i = o; src[i] != 0; i++)
-	{
-		dest[dlen] = src[i];
-		dlen++;
+		len++;
 	}
 
-	dest[dlen] = '\0'; 
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[len] = src[i];
+		len += 1;
+	}
+	dest[len] = '\0';
 	return (dest);
 }
